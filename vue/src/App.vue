@@ -2,7 +2,7 @@
 import { onMounted } from "vue";
 import Home from "./pages/Home.vue";
 import Login from "./pages/Login.vue";
-import { user } from "./lib/stores/user.js";
+import { user } from "./stores/user.js";
 
 const isLoginPage = window.location.pathname === "/login";
 
